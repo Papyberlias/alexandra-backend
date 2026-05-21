@@ -1,15 +1,12 @@
 {
-  "name": "alexandra-game",
+  "name": "alexandra-backend",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node backend/app.js"
+    "start": "bun run index.ts"
   },
   "dependencies": {
-    "hono": "^3.0.0",
-    "hono/serve-static": "^1.0.0",
-    "pg": "^8.10.0",
-    "uuid": "^9.0.0",
-    "cors": "^2.8.5"
+    "hono": "^4.0.0",
+    "pg": "^8.11.0"
   }
 }
